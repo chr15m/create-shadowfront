@@ -17,6 +17,13 @@ Once shadow-cljs finishes compiling the project for the first time open these pa
 
 Then open `src/YOUR-APP-NAME/core.cljs` in your editor and start hacking. 👍
 
+Then you can commit your changes as `git init` has already been run:
+
+```
+git add .
+git commit -m "Initial commit."
+```
+
 # Build
 
 To make a static release that you can publish on a hosting service:
