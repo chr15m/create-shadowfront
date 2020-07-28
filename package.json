@@ -1,5 +1,7 @@
 {
-  "name": "shadow-cljs-reagent-boilerplate",
+  "name": "create-shadowfront",
+  "description": "Quickly get shadow-cljs + reagent up and running.",
+  "repository": "https://github.com/chr15m/create-shadowfront",
   "version": "0.0.1",
   "dependencies": {
     "fs-extra": "^9.0.1",
