@@ -9,9 +9,14 @@ const name = args[0];
 
 if (name) {
   fs.copySync(__dirname + "/template", args[0]);
+  fs.copySync(__dirname + "/template/.gitignore", args[0] + "/.gitignore");
   fs.moveSync(args[0] + "/src/NAME", args[0] + "/src/" + name);
   replace.sync({
-    "files": args[0] + "/**/**",
+    "files": [
+      args[0] + "/**/**",
+      args[0] + "/src/" + name + "/*.cljs",
+      args[0] + "/public/*"
+    ],
     "from": "NAME",
     "to": name,
     "countMatches": true,
