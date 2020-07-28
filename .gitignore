@@ -1,5 +1,4 @@
 .*.swp
-public/js
-.shadow-cljs
 node_modules
+.shadow-cljs
 package-lock.json

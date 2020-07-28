@@ -1,7 +1,8 @@
 {
+  "name": "shadow-cljs-reagent-boilerplate",
+  "version": "0.0.1",
   "dependencies": {
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
-    "shadow-cljs": "^2.10.14"
+    "fs-extra": "^9.0.1",
+    "replace-in-file": "^6.1.0"
   }
 }
