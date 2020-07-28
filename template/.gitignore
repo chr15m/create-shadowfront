@@ -1,0 +1,4 @@
+.shadow-cljs
+public/js
+build
+.*.swp
