@@ -3,6 +3,9 @@
   "description": "Quickly get shadow-cljs + reagent up and running.",
   "repository": "https://github.com/chr15m/create-shadowfront",
   "version": "0.0.1",
+  "bin": {
+    "create-shadow-cljs-app": "index.js"
+  },
   "dependencies": {
     "fs-extra": "^9.0.1",
     "replace-in-file": "^6.1.0"

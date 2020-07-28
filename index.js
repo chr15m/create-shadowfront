@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const args = process.argv.slice(2);
 const exec = require('child_process').exec;
 const fs = require('fs-extra');
