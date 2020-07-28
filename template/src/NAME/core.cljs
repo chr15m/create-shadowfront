@@ -6,8 +6,8 @@
 
 (defn component-main [state]
   [:div
-   [:h1 "Hello world"]
-   [:p "Welcome to your app!"]
+   [:h1 "NAME"]
+   [:p "Welcome to the app!"]
    [:button {:on-click #(js/alert "Hello world!")} "click me"]])
 
 (defn start {:dev/after-load true} []
