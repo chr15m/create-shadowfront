@@ -6,7 +6,7 @@ const fs = require('fs-extra');
 const replace = require('replace-in-file');
 
 const name = args[0];
-const dir = args[0].replace("-", "_");
+const dir = name && args[0].replace("-", "_");
 
 if (name) {
   fs.copySync(__dirname + "/template", name);
