@@ -3,7 +3,7 @@ This is a [nodejs initializer](https://docs.npmjs.com/cli/init) to quickly get a
 How to use it:
 
 ```
-npm i shadowfront YOUR-APP-NAME
+npm init shadowfront YOUR-APP-NAME
 ```
 
 Then you can start the server:
