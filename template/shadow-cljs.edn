@@ -4,7 +4,5 @@
  :builds {:app {:target :browser
                 :output-dir "public/js"
                 :asset-path "js"
-                :devtools {:browser-inject :main
-                           :preloads [shadow.remote.runtime.cljs.browser]}
                 :modules {:main {:init-fn NAME.core/init}}
                 :release {:output-dir "build/js"}}}}
