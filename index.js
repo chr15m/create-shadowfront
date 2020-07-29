@@ -6,15 +6,16 @@ const fs = require('fs-extra');
 const replace = require('replace-in-file');
 
 const name = args[0];
+const dir = args[0].replace("-", "_");
 
 if (name) {
-  fs.copySync(__dirname + "/template", args[0]);
-  fs.copySync(__dirname + "/template/gitignore", args[0] + "/.gitignore");
-  fs.moveSync(args[0] + "/src/NAME", args[0] + "/src/" + name);
+  fs.copySync(__dirname + "/template", name);
+  fs.moveSync(name + "/gitignore", name + "/.gitignore");
+  fs.moveSync(name + "/src/NAME", name + "/src/" + dir);
   replace.sync({
     "files": [
       args[0] + "/**/**",
-      args[0] + "/src/" + name + "/*.cljs",
+      args[0] + "/src/" + dir + "/*.cljs",
       args[0] + "/public/*"
     ],
     "from": "NAME",
