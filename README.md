@@ -1,9 +1,14 @@
-Quickly get a shadow-cljs + Reagent project up and running.
+This is a [nodejs initializer](https://docs.npmjs.com/cli/init) to quickly get a ClojureScript + shadow-cljs + Reagent project up and running in one command.
 
-How to use this:
+How to use it:
 
 ```
 npm i shadowfront YOUR-APP-NAME
+```
+
+Then you can start the server:
+
+```
 cd YOUR-APP-NAME
 make watch
 ```
