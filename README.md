@@ -1,4 +1,4 @@
-This is a [nodejs initializer](https://docs.npmjs.com/cli/init) to quickly get a ClojureScript + shadow-cljs + Reagent project up and running in one command.
+This is a [nodejs initializer](https://docs.npmjs.com/cli/init) to quickly get a ClojureScript + [shadow-cljs](https://shadow-cljs.org/) + [Reagent](https://reagent-project.github.io/) project up and running in one command.
 
 How to use it:
 
