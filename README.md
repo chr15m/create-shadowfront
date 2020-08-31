@@ -16,7 +16,7 @@ make watch
 Once shadow-cljs finishes compiling the project for the first time open these pages in your browser:
 
  * http://localhost:8000/ <- the running app
- * http://http://localhost:9630/ <- shadow-cljs debugging console
+ * http://localhost:9630/ <- shadow-cljs debugging console
 
 > (tip: use `(tap> ...)` in your code to have a value show up in the "inspect" pane.
 
