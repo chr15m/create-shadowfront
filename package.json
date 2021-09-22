@@ -2,7 +2,7 @@
   "name": "create-shadowfront",
   "description": "Quickly get shadow-cljs + reagent up and running.",
   "repository": "https://github.com/chr15m/create-shadowfront",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "bin": {
     "create-shadow-cljs-app": "index.js"
   },
