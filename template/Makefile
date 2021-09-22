@@ -1,9 +1,7 @@
-STATIC=$(shell find public/ -maxdepth 1 -type f | grep -v .swp)
-
 build: $(shell find src) public/*
 	mkdir -p build
 	npx shadow-cljs release app
-	cp $(STATIC) build/
+	rsync -aLz --exclude js --exclude '.*.swp' public/ build
 	touch build
 
 node_modules: package.json
