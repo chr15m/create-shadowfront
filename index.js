@@ -23,6 +23,10 @@ if (name) {
     "countMatches": true,
   });
   exec("cd " + name + "; git init");
+  console.error("Project created in ./" + name);
+  console.error("To get started:")
+  console.error("$ cd " + name);
+  console.error("$ make watch");
 } else {
-  console.log("Usage: shadowfront APP-NAME");
+  console.error("Usage: shadowfront APP-NAME");
 }
