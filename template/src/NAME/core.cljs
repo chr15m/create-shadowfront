@@ -1,10 +1,11 @@
 (ns NAME.core
-  (:require [reagent.core :as r]
-            [reagent.dom :as rdom]))
+  (:require
+    [reagent.core :as r]
+    [reagent.dom :as rdom]))
 
 (defonce state (r/atom {}))
 
-(defn component-main [state]
+(defn component-main [_state]
   [:div
    [:h1 "NAME"]
    [:p "Welcome to the app!"]
