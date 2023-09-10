@@ -1,8 +1,8 @@
 {
   "name": "create-shadowfront",
-  "description": "Get shadow-cljs + reagent up and running fast.",
+  "description": "Get ClojureScript + shadow-cljs + Reagent up and running fast.",
   "repository": "https://github.com/chr15m/create-shadowfront",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "bin": {
     "create-shadow-cljs-app": "index.js"
   },
